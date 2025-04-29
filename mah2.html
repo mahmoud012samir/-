@@ -1,0 +1,110 @@
+
+<html >
+<head>
+ 
+  <style>
+
+
+header {
+  background-color: gold;
+  color: blue;
+  padding: 20px;;
+  text-align: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 30px;
+}
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: red;
+   font-weight: bold;
+}
+
+
+.login-section {
+  max-width: 500px;
+  margin: 40px auto  ;
+  padding: 40px;
+  background-color: whitesmoke;
+  
+}
+
+.login-section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  
+}
+
+form button {
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Website</h1>
+    <nav>
+      <ul>
+        <li><a href="mah2.html">Home</a></li>
+        <li><a href="mah.html">About</a></li>
+        <li><a href="mah3.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="login-section">
+      <h2>Login Form</h2>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Group Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
